@@ -1,0 +1,41 @@
+/* FriendListItem.module.css */
+
+.listContainer {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .status {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .online {
+    background-color: green;
+  }
+  
+  .offline {
+    background-color: red;
+  }
+  
+  .name {
+    margin: 0;
+  }
